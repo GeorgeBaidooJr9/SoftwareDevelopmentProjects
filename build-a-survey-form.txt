@@ -1,0 +1,42 @@
+** start of undefined **
+
+<h1 id=title>Cryptocurrency Survey</h1>
+<body style="background-color:yellow";>
+<p id=description>Welcome to the Cryptocurrency survey.You will be asked questions in regards to crypto!</p>
+<form id=survey-form> <input id="name" placeholder="Enter your name"required><label id="name-label">
+  <input id ="email" required type="email" placeholder="Enter your email"required type="text"><label id="email-label">
+  <input id="number" type="number" min="2" max="100" placeholder="Age"><label id="number-label">
+    
+  <p>Do you own any crypto?</p></input>
+  <select id="dropdown">
+
+    <option="">--"Please select an option"</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+<type="checkbox">
+  <input type="radio" value="bitcoin" name="crypto" type="checkbox"><input>
+  <input type="radio" value="ethereum" name="crypto" type="checkbox"><input>
+<p> Do you own more than one type of crypto?</p>
+
+<input type="checkbox" value="Yes">Yes</input>
+<input type="checkbox" value="No">No</input>
+<textarea>List the crypto that you own...</textarea>
+
+<p> You have reached the end of the survey. Click the submit button to end the survey!</p>
+<input id="submit" type="submit"></input>
+
+<link rel="stylesheet" href="styles.css">
+  </select>
+  </form>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: yellow;
+}
+
+** end of undefined **
+
